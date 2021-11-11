@@ -1,0 +1,14 @@
+Enunciado ejercicio 2: 
+
+Investiga la viabilidad e inconvenientes del cambio de las propiedades del sistema desde nuestras 
+aplicaciones Java, mediante consulta en Internet. 
+
+
+Un cambio en las propiedades del sistema puede hacer que todo el sistema operativo se corrompa. 
+Es por eso que la máquina virtual de java no permite sobreescribir las propiedades que afectan al sistema 
+operativo, permitiendo sólo el acceso para lectura para estas propiedades.
+
+Debido a esto, el uso que le podamos dar a la clase System, al intentar cambiar propiedades del sistema desde 
+Java, no debe tener una influencia en nuestro equipo.
+
+
